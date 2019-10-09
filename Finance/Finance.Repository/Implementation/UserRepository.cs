@@ -93,6 +93,7 @@ namespace Finance.Repository.Implementation
                 return false;
             }
             return true;
+            
         }
         public bool Update(User entity)
         {
