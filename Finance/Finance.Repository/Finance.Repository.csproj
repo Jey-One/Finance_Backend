@@ -3,7 +3,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Finance.Entity\Finance.Entity.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.4" />
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
