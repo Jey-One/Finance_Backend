@@ -6,6 +6,8 @@ namespace Finance.Repository.Context
     public class ApplicationDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Gasto> Gastos { get; set; }
+        public DbSet<Letra> Letras { get; set; }
       
         public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options) : base (options) {
 

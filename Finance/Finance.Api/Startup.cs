@@ -37,6 +37,12 @@ namespace Finance.Api
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IUserService, UserService>();
 
+            services.AddTransient<IGastoRepository, GastoRepository>();
+            services.AddTransient<IGastoService, GastoService>();
+
+            services.AddTransient<ILetraRepository,LetraRepository>();
+            services.AddTransient<ILetraService, LetraService>();
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddJsonOptions(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);

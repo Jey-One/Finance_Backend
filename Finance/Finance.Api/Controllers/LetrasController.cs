@@ -10,55 +10,55 @@ namespace Finance.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : Controller
+    public class LetrasController : Controller
     {
-       private IUserService userService;
+       private ILetraService letraService;
 
-        public UsersController(IUserService userService)
+        public LetrasController(ILetraService letraService)
         {
-            this.userService = userService;
+            this.letraService = letraService;
         }
+
         [HttpGet]
         public ActionResult Get()
         {
             return Ok(
-                userService.GetAll()
+                letraService.GetAll()
             );
         }
         [HttpGet("{id}")]
         public ActionResult GetById(int id)
         {
             return Ok(
-                userService.Get(id)
+                letraService.Get(id)
+            );
+        }
+        [HttpGet("GetLetrasByUserId/{id}")]
+        public ActionResult GetLetrasByUserId(int id)
+        {
+            return Ok(
+                letraService.GetLetrasByUserId(id)
             );
         }
         [HttpPost]
-        public ActionResult Post([FromBody] User user)
+        public ActionResult Post([FromBody] Letra letra)
         {
             return Ok(
-               userService.Save(user)
+               letraService.Save(letra)
             );
         }
         [HttpPut]
-        public ActionResult Put([FromBody] User user)
+        public ActionResult Put([FromBody] Letra letra)
         {
             return Ok(
-                userService.Update(user)
+                letraService.Update(letra)
             );
         }
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
             return Ok(
-                userService.Delete(id)
-            );
-        }
-
-        [HttpGet("{username}/{password}")]
-        public ActionResult Login(string username, string password)
-        {
-            return Ok(
-                userService.Login(username,password)
+                letraService.Delete(id)
             );
         }
     }

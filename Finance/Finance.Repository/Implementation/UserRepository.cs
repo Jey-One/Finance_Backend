@@ -4,6 +4,7 @@ using System;
 using Finance.Repository.Context;
 using Finance.Repository.DTO;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Finance.Repository.Implementation
 {
@@ -49,7 +50,9 @@ namespace Finance.Repository.Implementation
             var result = new List<User>();
             try
             {
-                result = context.Users.ToList();
+                result = context.Users
+                .Include(user => user.Letras)
+                .ToList();
             }
             catch (Exception)
             {
