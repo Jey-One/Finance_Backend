@@ -2772,23 +2772,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\catheryne\\.nuget\\packages\\": {},
+    "C:\\Users\\Intel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Repository\\Finance.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Repository\\Finance.Repository.csproj",
       "projectName": "Finance.Repository",
-      "projectPath": "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Repository\\Finance.Repository.csproj",
-      "packagesPath": "C:\\Users\\catheryne\\.nuget\\packages\\",
-      "outputPath": "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Repository\\obj\\",
+      "projectPath": "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Repository\\Finance.Repository.csproj",
+      "packagesPath": "C:\\Users\\Intel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\catheryne\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Intel\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -2799,8 +2799,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj": {
-              "projectPath": "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj"
+            "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj": {
+              "projectPath": "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj"
             }
           }
         }

@@ -26,3 +26,17 @@ E:\Finanzas\Finance\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandar
 E:\Finanzas\Finance\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.csproj.CopyComplete
 E:\Finanzas\Finance\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.dll
 E:\Finanzas\Finance\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.pdb
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\bin\Debug\netstandard2.0\Finance.Service.deps.json
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\bin\Debug\netstandard2.0\Finance.Service.dll
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\bin\Debug\netstandard2.0\Finance.Service.pdb
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\bin\Debug\netstandard2.0\Finance.Entity.dll
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\bin\Debug\netstandard2.0\Finance.Repository.dll
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\bin\Debug\netstandard2.0\Finance.Repository.pdb
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\bin\Debug\netstandard2.0\Finance.Entity.pdb
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.csprojAssemblyReference.cache
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.csproj.CoreCompileInputs.cache
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.AssemblyInfoInputs.cache
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.AssemblyInfo.cs
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.csproj.CopyComplete
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.dll
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Service\obj\Debug\netstandard2.0\Finance.Service.pdb

@@ -22,3 +22,15 @@ E:\Finanzas\Finance\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstan
 E:\Finanzas\Finance\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.csproj.CopyComplete
 E:\Finanzas\Finance\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.dll
 E:\Finanzas\Finance\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.pdb
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\bin\Debug\netstandard2.0\Finance.Repository.deps.json
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\bin\Debug\netstandard2.0\Finance.Repository.dll
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\bin\Debug\netstandard2.0\Finance.Repository.pdb
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\bin\Debug\netstandard2.0\Finance.Entity.dll
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\bin\Debug\netstandard2.0\Finance.Entity.pdb
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.csprojAssemblyReference.cache
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.AssemblyInfoInputs.cache
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.AssemblyInfo.cs
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.csproj.CopyComplete
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.dll
+C:\Users\Intel\Desktop\Finance_Backend\Finance\Finance.Repository\obj\Debug\netstandard2.0\Finance.Repository.pdb

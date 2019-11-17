@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj": {}
+    "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj": {}
   },
   "projects": {
-    "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj": {
+    "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj",
         "projectName": "Finance.Entity",
-        "projectPath": "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj",
-        "packagesPath": "C:\\Users\\catheryne\\.nuget\\packages\\",
-        "outputPath": "E:\\Finanzas\\Finance\\Finance_Backend\\Finance\\Finance.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Entity\\Finance.Entity.csproj",
+        "packagesPath": "C:\\Users\\Intel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Intel\\Desktop\\Finance_Backend\\Finance\\Finance.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\catheryne\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Intel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
