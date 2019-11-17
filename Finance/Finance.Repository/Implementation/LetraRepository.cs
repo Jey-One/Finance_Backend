@@ -78,7 +78,7 @@ namespace Finance.Repository.Implementation
             }
             return result;
         }
-
+        /*
         public bool Save(Letra entity)
         {
             try
@@ -88,6 +88,44 @@ namespace Finance.Repository.Implementation
             }
             catch (Exception)
             {
+                return false;
+            }
+            return true;
+        }
+        */
+        public bool Save (Letra entity) {
+
+            Letra letra = new Letra {
+                Denominacion = entity.Denominacion,
+                LugarGiro = entity.LugarGiro,
+                FechaGiro = entity.FechaGiro,
+                ValorNominal = entity.ValorNominal,
+                NombreGirado = entity.NombreGirado,
+                DniGirado = entity.DniGirado,
+                NombreBeneficiario = entity.NombreBeneficiario,
+                NombreGirador = entity.NombreGirador,
+                DniGirador = entity.DniGirador,
+                FirmaGirador = entity.FirmaGirador,
+                FechaVencimiento = entity.FechaVencimiento,
+                LugarPago = entity.LugarPago,
+                Retencion = entity.Retencion,
+                UserId = entity.UserId,
+            };
+            try {
+                context.Letras.Add (letra);
+                context.SaveChanges ();
+                var letraId = letra.Id;
+                foreach (var item in entity.Gastos) {
+                    Gasto gasto = new Gasto {
+                        Nombre = item.Nombre,
+                        Tipo = item.Tipo,
+                        Valor = item.Valor,
+                        LetraId = letraId
+                    };
+                    context.Gastos.Add (gasto);
+                }
+                context.SaveChanges ();
+            } catch (Exception ex) {
                 return false;
             }
             return true;
@@ -115,6 +153,17 @@ namespace Finance.Repository.Implementation
                 originalLetra.LugarPago = entity.LugarPago;
                 originalLetra.Retencion = entity.Retencion;
                 originalLetra.UserId = entity.UserId;
+                
+                /*
+                foreach (var item in entity.Gastos) {
+                    Gasto gasto = new Gasto {
+                        Nombre = item.Nombre,
+                        Tipo = item.Tipo,
+                        Valor = item.Valor,
+                        LetraId = entity.Id
+                    };
+                    originalLetra.Gastos = gasto;
+                }*/
 
                 context.Update(originalLetra);
                 context.SaveChanges();
